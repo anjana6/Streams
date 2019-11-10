@@ -1,6 +1,18 @@
 import streams from '../apis/streams';
 import {CREATE_STREAM,FETCH_STREAMS,FETCH_STREAM,DELETE_STREAM,EDIT_STREAM} from './type';
 
+export const signIn = () => {
+    return {
+        type: 'SIGN_IN'
+    };
+};
+
+export const signOut = () => {
+    return {
+        type: 'SING_OUT'
+    };
+};
+
 export const createStream = formValues => async dispatch => {
     const response = await streams.post('/streams',formValues)
 
