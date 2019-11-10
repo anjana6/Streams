@@ -1,0 +1,19 @@
+{
+  "streams": [
+    {
+      "title": "My streams",
+      "description": "This is grate streams",
+      "id": 1
+    },
+    {
+      "title": "Other streams",
+      "description": "new streams",
+      "id": 2
+    },
+    {
+      "title": "Brand new Stream",
+      "description": "Build new",
+      "id": 3
+    }
+  ]
+}
