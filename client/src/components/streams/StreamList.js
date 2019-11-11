@@ -24,7 +24,9 @@ class StreamList extends React.Component{
                     {this.renderAdimin(stream)}
                     <i className="large middle aligned icon camera"/>
                     <div className="content">
-                        {stream.title}
+                        <Link to={`/streams/${stream.id}`} className="header">
+                            {stream.title}
+                        </Link>
                         <div className="description">{stream.description}</div>
                         
                     </div>
@@ -37,7 +39,7 @@ class StreamList extends React.Component{
         return(
             <div style={{textAlign: 'right'}}>
                 <Link to="/streams/new" className="ui button primary">
-                    Create Strea m
+                    Create Stream
                 </Link>
             </div>
         )
