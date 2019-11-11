@@ -1,21 +1,6 @@
 {
   "streams": [
     {
-      "title": "My streams",
-      "description": "Haiii",
-      "id": 1
-    },
-    {
-      "title": "Other streams",
-      "description": "new streams",
-      "id": 2
-    },
-    {
-      "title": "Brand new Stream",
-      "description": "Build new",
-      "id": 3
-    },
-    {
       "title": "programtic nevigation",
       "description": "nice navigation",
       "id": 4
