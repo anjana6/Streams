@@ -16,6 +16,7 @@ const App = () => {
            
             <Router history={history}>
                 <div>
+                   
                     <Header/>
                     <Switch>
                         <Route path="/" exact component={StreamList}/>

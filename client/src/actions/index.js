@@ -11,12 +11,12 @@ export const signIn = () => {
 export const signOut = () => {
     return {
         type: 'SING_OUT'
-    };
+    }
 };
 
 export const createStream = formValues => async dispatch => {
     const response = await streams.post('/streams',formValues)
-
+    // console.log(response.data);
     dispatch({type:CREATE_STREAM, payload: response.data});
     history.push('/');
 
